@@ -8,8 +8,7 @@
     user-select: none;
 }
 body{
-    background-color: rgb(228, 228, 228);
-  
+    background-color: rgb(228, 228, 228); 
 }
 
 .nav-center{
@@ -20,7 +19,6 @@ body{
     background-color: white;
     padding: 2rem;
     box-shadow: 2px 2px 5px rgb(143, 141, 141) ;
-    
 }
 
 .links{
@@ -29,9 +27,7 @@ body{
     flex-direction: row;
     list-style: none;
     letter-spacing: 3px;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
 }
 .links a{
     padding: 1rem;
@@ -73,9 +69,6 @@ span{
         border: none;
         background-color: white;
         font-size: 1.5rem;
-        
-        
-        
     }
     .nav-toggle i:hover{
         transform: rotate(90deg);
@@ -85,20 +78,17 @@ span{
     .nav-toggle i{
         color:rgb(25, 203, 226) ;
         transition: ease .5s;
-        cursor: pointer;
-        
+        cursor: pointer;     
     }
     .nav-header{
         width: 100%;
         display: flex;
         justify-content: space-between;
         margin: 0 1rem;
-    
     }
     .links {
         height: 0;
-        overflow: hidden;
-       
+        overflow: hidden;  
     }
     .nav-center{
         padding: 1rem;
@@ -113,7 +103,6 @@ span{
         flex-direction: column;
         justify-content: space-evenly;
         transition:ease .5s;
-    
     }
 
     .show-links li:hover{
